@@ -39,3 +39,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Cloudflare
+.wrangler/
+wrangler.toml.bak
+
+# Test files and screenshots
+*.png
+app-screenshot.png
+apex-screenshot.png
+cs2-screenshot.png
+form-filled-screenshot.png
+test-app.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
